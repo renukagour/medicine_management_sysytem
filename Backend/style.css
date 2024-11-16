@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading Style */
+h1 {
+    color: #4CAF50;
+    margin-top: 20px;
+}
+
+/* Table Styles */
+#medicineTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+#medicineTable th, #medicineTable td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+#medicineTable th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#medicineTable td {
+    background-color: #fff;
+}
+
+/* Form Styles */
+#medicineForm {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#medicineForm h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+#medicineForm label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#medicineForm input[type="text"],
+#medicineForm input[type="date"] {
+    width: calc(100% - 22px); /* Adjust for padding and border */
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#medicineForm button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#medicineForm button:hover {
+    background-color: #45a049;
+}
+
+/* Button Styles in Table */
+.edit-btn {
+    background-color: #FFA500; /* Orange */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.edit-btn:hover {
+    background-color: #e69500;
+}
+
+.save-btn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.save-btn:hover {
+    background-color: #45a049;
+}
+
+.delete-btn {
+    background-color: #f44336; /* Red */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f;
+}
